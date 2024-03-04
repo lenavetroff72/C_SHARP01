@@ -531,3 +531,5 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 *.sln
+LESSON1/Task1/obj/Debug/net8.0/Task1.AssemblyInfoInputs.cache
+LESSON1/Task1/obj/Debug/net8.0/Task1.AssemblyInfo.cs
