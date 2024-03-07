@@ -1,11 +1,11 @@
-﻿int n = 5;
+﻿int n = 8;
 int i = 1;
 
 while (i <= n)
 {
-    if((n % 2) == 0)
+    if((i % 2) == 0)
     //Console.WriteLine(i);
         Console.Write(i);
         Console.Write(' ');
-        i = i + 1;
+    i = i + 1;
 }
