@@ -35,20 +35,18 @@
 //Вывести на экран согласные буквы этой строки.
 //Указание: использоваеть рекурсию
 
-void GetConsonant(string str)
-{
-    if (str.Length == 0)
-    {
-        return;
-    }
-    string vowels = "aeuoi";
-    if (char.IsLetter(str[0]) && !vowels.Contains(char.ToLower(str[0])))
-    {
-        Console.Write($"{str[0]} ");
-    }
-    GetConsonant(str.Substring(1));
-}
-
-Console.WriteLine("Введите строку:");
-string str = Console.ReadLine();
-GetConsonant(str);
+//void GetConsonant(string str)
+//{
+//    if (str.Length == 0)
+//    {
+//        return;
+//    }
+//    string vowels = "aeuoi";
+//    if (char.IsLetter(str[0]) && !vowels.Contains(char.ToLower(str[0])))
+//    {
+//        Console.Write($"{str[0]} ");
+//    }    GetConsonant(str.Substring(1));
+//
+//Console.WriteLine("Введите строку: ");
+//string str = Console.ReadLine();
+//GetConsonant(str);
